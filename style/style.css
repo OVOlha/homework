@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #619494;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.wrap{
+    background: #C1D7D7;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   }
+
+
+
+.info-container{
+    max-width: 1000px;
+    margin-left: 230px;
+    margin-right: 230px;     
+    border-style: 5px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-name{
+    text-align: center;
+    }
+
+.round-photo{        
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("./img/my_photo.JPG") no-repeat;  
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-movie-list{
+    display: flex;
+    max-width: 800px;    
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.movie1-photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("./img/mr_nobody.jpg") no-repeat;  
+    overflow: hidden;
+    margin: 10px;
+    float: left;    
+    shape-outside: circle(50%);
+    flex-shrink: 0;    
+    margin-top: 15px;
+   }
+
+    section{
+        position: relative;
+        width: 100%;
+
+    }
+   
+
+    .movie{
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+    }
+.movie2-photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("./img/bohemian.jpg") no-repeat;  
+    overflow: hidden;
+    margin: 10px;
+    float: right;    
+    shape-outside: circle(50%);
+    flex-shrink: 0;
+    justify-content: right;
+    object-fit: cover;
+    margin: 0;
+}
+
+.movie3-photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("./img/bohemian.jpg") no-repeat;  
+    overflow: hidden;
+    margin: 10px;
+    float: left;    
+    shape-outside: circle(50%);
+    flex-shrink: 0;
+    justify-content: right;
+    object-fit: cover;
+    margin-top: 15px;
+}
+.small-hdr{
+    text-align: center;
+   
+}
+
+.link-text{
+    padding-bottom: 30px;
+    
+}
+
+.why-list{
+    padding-left: 30px;    
+    
+}
+
+hr  {
+    color: #385757 noshade;
+    height: 1px;
+    
+}
+ul {
+    list-style: none; 
+    list-style-image: url(/img/spider_icon.png)no-repeat 0 4px;    
+}
+
+.fb_img_link{
+    position: relative;    
+    bottom: 50px;
+}
